@@ -125,7 +125,7 @@ export default function FAQSection() {
           <div className="bg-gray-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Still have questions?</h3>
             <p className="text-gray-600 mb-6">
-              Can't find the answer you're looking for? Our team is here to help.
+              Can&apos;t find the answer you&apos;re looking for? Our team is here to help.
             </p>
             <a
               href="#contact"

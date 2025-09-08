@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface ServiceCardProps {
   image: string;
@@ -11,10 +12,11 @@ function ServiceCard({ image, title, description, features }: ServiceCardProps) 
   return (
     <div className="group relative bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-[#CC4C3D] flex flex-col h-full transform hover:-translate-y-2">
       <div className="w-full h-56 overflow-hidden relative">
-        <img 
+        <Image 
           src={image} 
           alt={title}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+          fill
+          className="object-cover group-hover:scale-110 transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#CC4C3D]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
       </div>

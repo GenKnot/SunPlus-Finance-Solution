@@ -36,7 +36,7 @@ export default function TestimonialsSection() {
     },
     {
       id: 2,
-      text: "As a small business owner, I was struggling with finances and technology. Sunplus Finance Services' comprehensive approach - from website design to bookkeeping and consultation - gave me everything I needed under one roof. Game changer!",
+      text: "As a small business owner, I was struggling with finances and technology. Sunplus Finance Services&apos; comprehensive approach - from website design to bookkeeping and consultation - gave me everything I needed under one roof. Game changer!",
       author: "— CONSULTING FIRM"
     },
     {
@@ -80,7 +80,7 @@ export default function TestimonialsSection() {
   useEffect(() => {
     const interval = setInterval(nextTestimonial, 5000);
     return () => clearInterval(interval);
-  }, [isAnimating, maxStartIndex]);
+  }, [isAnimating, maxStartIndex, nextTestimonial]);
 
   const getCurrentTestimonials = () => {
     const result = [];
@@ -102,7 +102,7 @@ export default function TestimonialsSection() {
               Trusted by 100+ Growing Businesses
             </h2>
             <p className="text-primary-100 text-lg">
-              We're proud to be the go-to partner for small to medium-sized businesses seeking comprehensive solutions.
+              We&apos;re proud to be the go-to partner for small to medium-sized businesses seeking comprehensive solutions.
             </p>
           </div>
           
