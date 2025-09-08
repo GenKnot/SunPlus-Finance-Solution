@@ -1,0 +1,16 @@
+export const COMPANY_INFO = {
+  name: 'Sunplus Finance Services Inc.',
+  email: 'info@sunplusfinance.com',
+  phone: '+1 (555) 123-4567',
+  businessHours: {
+    weekdays: 'Monday - Friday: 9:00 AM - 6:00 PM',
+    saturday: 'Saturday: 10:00 AM - 4:00 PM',
+    sunday: 'Sunday: Closed'
+  }
+};
+
+export const NAVIGATION_LINKS = [
+  { href: '#services', label: 'Services' },
+  { href: '#testimonials', label: 'Testimonials' },
+  { href: '#contact', label: 'Contact' }
+];
