@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function AboutSection() {
   return (
-    <div className="bg-white py-16 lg:py-20">
+    <div id="about" className="bg-white py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
           <div className="relative h-[250px] sm:h-[300px] lg:h-[350px] w-[95%] mx-auto lg:w-full lg:mx-0 rounded-t-2xl sm:rounded-t-3xl overflow-hidden">

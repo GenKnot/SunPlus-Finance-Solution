@@ -94,7 +94,7 @@ export default function TestimonialsSection() {
   const currentTestimonials = getCurrentTestimonials();
 
   return (
-    <div className="py-16 primary-bg">
+    <div id="testimonials" className="py-16 primary-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-4 gap-12 items-start">
           <div className="lg:col-span-1">

@@ -48,22 +48,6 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
-              <li>
-                <a
-                  href="#about"
-                  className="text-gray-300 hover:text-primary-400 transition-colors duration-300 text-sm block py-1"
-                >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#faq"
-                  className="text-gray-300 hover:text-primary-400 transition-colors duration-300 text-sm block py-1"
-                >
-                  FAQ
-                </a>
-              </li>
             </ul>
           </div>
 
