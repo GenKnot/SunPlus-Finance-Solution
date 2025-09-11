@@ -12,7 +12,7 @@ export default function Footer() {
             <h3 className="text-3xl font-bold text-primary-500 mb-6">{COMPANY_INFO.name}</h3>
             <p className="text-gray-300 text-base leading-relaxed mb-8 max-w-lg">
               Complete business solutions for small to medium-sized businesses. We provide accounting, 
-              tax services, financial consulting, and business development to help your company grow and succeed.
+              tax services, financial consulting, business development, and insurance administrative support to help your company grow and succeed.
             </p>
             <div className="space-y-4">
               <div className="flex items-center text-gray-300">

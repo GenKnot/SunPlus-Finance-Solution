@@ -34,7 +34,7 @@ export default function CompanySection() {
                 Your Business Partner
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Complete business solutions: website design, IT leadership, CPA bookkeeping, and consultation services for small to medium-sized businesses.
+                Complete business solutions for small to medium-sized businesses.
               </p>
               
               <div className="space-y-6 mb-8">
@@ -47,7 +47,7 @@ export default function CompanySection() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Website Design & Maintenance</h3>
                     <p className="text-gray-600">
-                      Professional websites that convert visitors into customers with ongoing maintenance and support.
+                      Professional websites with ongoing maintenance and support.
                     </p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ export default function CompanySection() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">IT Leadership</h3>
                     <p className="text-gray-600">
-                      Strategic technology guidance to optimize your business operations and lead your team effectively.
+                      Strategic technology guidance to optimize operations.
                     </p>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export default function CompanySection() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Finance Bookkeeping & Administrative</h3>
                     <p className="text-gray-600">
-                      CPA-certified bookkeeping and financial reporting with specialized support for qualified members.
+                      CPA-certified bookkeeping and financial reporting.
                     </p>
                   </div>
                 </div>
@@ -89,7 +89,21 @@ export default function CompanySection() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Consultation Services</h3>
                     <p className="text-gray-600">
-                      Administrative and management support consultation to streamline operations and maximize efficiency.
+                      Administrative and management support consultation.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: BRAND_COLORS.secondary}}>
+                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Insurance Administrative Support</h3>
+                    <p className="text-gray-600">
+                      Expert support for insurance claims and administrative processes.
                     </p>
                   </div>
                 </div>

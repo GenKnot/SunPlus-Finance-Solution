@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sunplus Finance Services Inc. - Expert Financial Solutions",
-  description: "Professional financial planning, investment advisory, tax services, bookkeeping, and IT consulting. Transform your business with expert solutions from one trusted partner.",
+  description: "Professional financial planning, investment advisory, tax services, bookkeeping, IT consulting, and insurance administrative support. Transform your business with expert solutions from one trusted partner.",
 };
 
 export default function RootLayout({

@@ -78,7 +78,7 @@ export default function FAQSection() {
     {
       id: 7,
       question: "Can I get multiple services together?",
-      answer: "Absolutely! We encourage businesses to take advantage of our complete solution approach. Many clients use our website design and maintenance, IT leadership, finance bookkeeping, and consultation services together for comprehensive business support. This integrated approach often provides better results and cost savings."
+      answer: "Absolutely! We encourage businesses to take advantage of our complete solution approach. Many clients use our website design and maintenance, IT leadership, finance bookkeeping, consultation services, and insurance administrative support together for comprehensive business support. This integrated approach often provides better results and cost savings."
     },
     {
       id: 8,
