@@ -134,6 +134,42 @@ export default function ServicesSection() {
         'Practice growth consulting'
       ],
       image: '/Images/s-6.webp'
+    },
+    {
+      id: 7,
+      title: 'Financial Planning',
+      description: 'Plan for long-term success with comprehensive financial strategies tailored to your business goals. From budgeting to investment planning, we help you make informed decisions.',
+      features: [
+        'Strategic budget planning',
+        'Investment strategy consulting',
+        'Cash flow forecasting',
+        'Retirement & succession planning'
+      ],
+      image: '/Images/s-7.webp'
+    },
+    {
+      id: 8,
+      title: 'Admin Support',
+      description: 'Focus on your core business while we handle the administrative details. From appointment scheduling to logistics coordination, we streamline your daily operations.',
+      features: [
+        'Appointment & scheduling management',
+        'Client coordination services',
+        'Logistics & supply chain support',
+        'Administrative process automation'
+      ],
+      image: '/Images/s-8.webp'
+    },
+    {
+      id: 9,
+      title: 'Talent Acquisition',
+      description: 'Find the perfect fit for your team. We connect you with qualified candidates who match your company culture and business needs, saving you time and resources.',
+      features: [
+        'Candidate sourcing & screening',
+        'Interview coordination',
+        'Skills assessment & matching',
+        'Onboarding support'
+      ],
+      image: '/Images/s-9.webp'
     }
   ];
 
@@ -143,7 +179,7 @@ export default function ServicesSection() {
         <div className="text-center text-white">
           <h2 className="text-5xl font-bold mb-6">What We Do Best</h2>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-            Six specialized services that work together to transform your business operations and drive growth
+            Nine specialized services that work together to transform your business operations and drive growth
           </p>
         </div>
       </div>
@@ -164,8 +200,21 @@ export default function ServicesSection() {
           </div>
           
           {/* Second row - 3 services */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {services.slice(3, 6).map((service) => (
+              <ServiceCard
+                key={service.id}
+                image={service.image}
+                title={service.title}
+                description={service.description}
+                features={service.features}
+              />
+            ))}
+          </div>
+          
+          {/* Third row - 3 services */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.slice(6, 9).map((service) => (
               <ServiceCard
                 key={service.id}
                 image={service.image}

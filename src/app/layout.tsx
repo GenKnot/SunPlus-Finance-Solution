@@ -14,21 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SunPlus Finance Solution Inc. - Expert Financial Solutions",
+  title: "SunPlus Consultation Services Inc. - Expert Business Solutions",
   description: "Transform your business with expert solutions: website design, IT leadership, CPA-certified bookkeeping, consultation services, and insurance claims support. Everything your small to medium-sized business needs from one trusted partner.",
-  keywords: ["financial solutions", "website design", "IT leadership", "bookkeeping", "CPA", "business consultation", "insurance claims support", "small business services"],
-  authors: [{ name: "SunPlus Finance Solution Inc." }],
+  keywords: ["business solutions", "consultation services", "website design", "IT leadership", "bookkeeping", "CPA", "business consultation", "insurance claims support", "small business services"],
+  authors: [{ name: "SunPlus Consultation Services Inc." }],
   openGraph: {
-    title: "SunPlus Finance Solution Inc. - Expert Financial Solutions",
+    title: "SunPlus Consultation Services Inc. - Expert Business Solutions",
     description: "Transform your business with expert solutions: website design, IT leadership, CPA-certified bookkeeping, consultation services, and insurance claims support.",
-    url: "https://sunplusfinance.com",
-    siteName: "SunPlus Finance Solution Inc.",
+    url: "https://sunplusconsultations.com",
+    siteName: "SunPlus Consultation Services Inc.",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SunPlus Finance Solution Inc. - Expert Financial Solutions",
+    title: "SunPlus Consultation Services Inc. - Expert Business Solutions",
     description: "Transform your business with expert solutions: website design, IT leadership, CPA-certified bookkeeping, consultation services, and insurance claims support.",
   },
   robots: {

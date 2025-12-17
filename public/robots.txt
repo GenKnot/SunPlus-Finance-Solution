@@ -1,4 +1,4 @@
-# robots.txt for SunPlus Finance Solution Inc.
+# robots.txt for SunPlus Consultation Services Inc.
 User-agent: *
 Allow: /
 

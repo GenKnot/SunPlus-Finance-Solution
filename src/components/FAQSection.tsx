@@ -47,7 +47,7 @@ export default function FAQSection() {
   const faqs: FAQItem[] = [
     {
       id: 1,
-      question: "What business services does SunPlus Finance Solution Inc. provide?",
+      question: "What business services does SunPlus Consultation Services Inc. provide?",
       answer: "We offer five core services: 1) Website design and maintenance, 2) IT leadership, 3) Finance bookkeeping and administrative with CPA expertise, 4) Consultation services for administrative and management support, and 5) Insurance claims support for claims management and negotiation - all specifically designed for small to medium-sized businesses."
     },
     {
